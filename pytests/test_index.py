@@ -45,4 +45,4 @@ def test_mean_review_count_func():
 
 def test_mediam_review_count_func():
     assert 'median_review_count' in ipynb.fs.full.index.__dict__, "The median_review_count function must be defined"
-    assert median_review_count(restaurant_list) == 1284.5
+    assert median_review_count(restaurant_list) == 1394.0
